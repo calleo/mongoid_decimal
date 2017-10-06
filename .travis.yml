@@ -8,6 +8,4 @@ addons:
       - mongodb-3.4-precise
     packages:
       - mongodb-org-server
-before_script:
-- "mongo mongoid_decimal_test --eval 'db.adminCommand({setFeatureCompatibilityVersion: "3.4"});'"
 before_install: gem install bundler -v 1.15.4
