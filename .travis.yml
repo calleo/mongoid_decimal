@@ -2,4 +2,10 @@ sudo: false
 language: ruby
 services:
 - mongodb
+addons:
+  apt:
+    sources:
+      - mongodb-3.4-precise
+    packages:
+      - mongodb-org-server
 before_install: gem install bundler -v 1.15.4
