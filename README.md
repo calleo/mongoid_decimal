@@ -20,7 +20,7 @@ And then execute:
 
 Requires MongoDB version 3.4 or later. Don't forget to set feature compatibility version using the Mongo shell:
 
-´´´db.adminCommand( { setFeatureCompatibilityVersion: "3.4" } )´´´
+```db.adminCommand( { setFeatureCompatibilityVersion: "3.4" } )```
 
 Read more about the implications [here](https://docs.mongodb.com/manual/reference/command/setFeatureCompatibilityVersion/#setfeaturecompatibilityversion-features). 
 
